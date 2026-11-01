@@ -4,25 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WDD 131 – Fundamentos da Web Dinâmica - Anna Almeida</title>
-    <meta name="description" content="Anna Antunes - WDD 131: Página Inicial">
+    <meta name="description" content="Anna Antunes - WDD 131: Página Inicial - A página contém uma sessão sobre mim e sobre a cidade que nasci.
+    contém também links de sites que podem ajudar no desenvolvimento, além de páginas como LinkedIn. Por último, contém minha escritura favorita.">
     <meta name="author" content="Anna Antunes">
-    <link rel="stylesheet" href="./semana01/estilos/base.css">
+    <link rel="stylesheet" href="estilos/base.css">
      <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
-    <script src="semana01/scripts/obterdatas.js" defer></script>
+    <script src="scripts/obterdatas.js" defer></script>
 </head>
 <body>
     <header>
         <div>
-        <p>WDD131 – Fundamentos da Web Dinâmica</p>
+        <span id="titulo-curso">WDD131 – Fundamentos da Web Dinâmica</span>
         </div>
         <nav>
              <ul>
                 <li><a href="https://www.linkedin.com/feed/">LinkedIn</a></li>
                 <li><a href="https://byupw.instructure.com/">Canvas</a></li>
                 <li><a href="https://www.churchofjesuschrist.org/study/scriptures/nt/matt/6?lang=por">Escritura</a></li>
-                <li><a href="">Projeto Final</a></li>
+                <li><a href="#">Projeto Final</a></li>
             </ul>
         </nav>
     </header>
@@ -30,7 +31,7 @@
         <h1>Anna Carolina Antunes</h1>
 
         <section class="card">
-            <img class="perfil" src="./semana01/imagens/perfil.webp" alt="Foto de perfil">
+            <img class="perfil" src="imagens/perfil.webp" alt="Foto de perfil">
             <p class="sobremim-titulo">Sobre Mim</p>
             <p class="sobremim"> Meu nome é Anna Antunes. Sou da Bahia, mas atualmente
             moro em Mogi Mirim, São Paulo.
@@ -43,7 +44,7 @@
             
             <h2>Salvador, Bahia</h2>
             <hr>
-            <img class="bahia" src="./semana01/imagens/bahia.webp" alt="">
+            <img class="bahia" src="imagens/bahia.webp" alt="">
             <p class="salvador">Bahia é uma das 27 unidades federativas do Brasil. Banhada pelo Oceano Atlântico na costa mais extensa do país, está situada na Região Nordeste,[11] onde representa a maior extensão territorial, a maior população, o maior produto interno bruto e o maior número de municípios. A capital estadual é Salvador. Além dela, há outros municípios influentes na rede urbana baiana, como as capitais regionais, Feira de Santana, Vitória da Conquista, Barreiras, o bipolo Itabuna-Ilhéus e Juazeiro do bipolo com o município pernambucano de Petrolina.</p>
             
         </section>
@@ -63,7 +64,7 @@
         </section>
 
     </main>
-    <footer>&copy; <span id="anoatual"></span> 🌅 Anna Antunes🌅 Salvador
+    <footer> <p>&copy; <span id="anoatual"></span> 🌅 Anna Antunes🌅 Salvador</p>
     <p>Última modificação: <span id="ultimaModificacao"> </span></p>
         
     </footer>
