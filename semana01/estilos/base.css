@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+   font-family: "Oswald", sans-serif;
+    text-align: center; 
+}
+body header p{
+    font-size: 30px;
+    font-family: "Oswald", sans-serif;
+    color: white;
+}
+
+
+main,
+footer {
+    margin: 0 auto;
+}
+
+main{
+display: grid;
+grid-template-columns: 3fr 1fr;
+column-gap: 20px;
+background-color: white;
+align-items: start;
+max-width: 1300px;
+    
+}
+
+.card
+{ padding-bottom: 2px;
+  background-color: white;
+  font-size: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  height: 600px;
+  margin: 20px;
+}
+
+.sobremim-titulo {
+    background-color:navy;
+    color: white;
+    border-radius: 5px;
+}
+
+.cursos {
+    background-color:navy;
+    color: white;
+    border-radius: 5px;
+}
+
+.card ul li a{
+    font-size: 20px;
+}
+
+.card ul{
+padding-left: 30px;
+text-align: left;
+margin: 20px;
+}
+
+header div{
+    background-color:navy ;
+    padding: 35px;
+}
+
+
+footer{
+    background-color: navy;
+    color: white;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+/* Estiliza palavras do header  */
+nav ul li a {
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+
+}
+
+nav ul li a:hover{
+    color: aqua;
+    cursor: pointer;
+}
+
+nav{
+    background-color:dimgray;
+    padding: 20px;
+
+}
+main h1{
+grid-column: 1 / -1;
+background-color: white;
+padding: 10px;
+}
+.perfil{
+   margin-top: 40px;
+    margin-right: 20px;
+    width: 110px;
+    height: auto;
+    border: 1px;
+    padding: 2px;
+    box-shadow: var(--box-shadow);
+    float: right;
+    border-radius: 3px;
+}
+
+.sobremim{
+    text-align: left;
+    margin: 15px;
+}
+ 
+.bahia{
+    margin-top: 40px;
+    margin-right: 20px;
+    margin-left: 30px;
+    width: 200px;
+    height: auto;
+    border: 1px;
+    padding: 2px;
+    box-shadow: var(--box-shadow);
+    float: left;
+    border-radius: 3px;
+    
+}
+
+main h2{
+font-size: 30px;
+font-family: "Oswald", sans-serif;
+margin-top: 80px;
+}
+
+hr{
+width: 60%;
+margin: 0 auto;
+}
+
+.salvador{
+padding: 35px;
+}
+footer p {
+font-family: "Oswald", sans-serif;
+}
