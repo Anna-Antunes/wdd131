@@ -54,7 +54,7 @@ p {
 	text-decoration: none;
 	padding: 0.5rem 0.75rem;
 	background-color:darkslateblue;
-	color: #000;
+	color: white;
 }
 
 #menu::before {
@@ -87,7 +87,7 @@ nav {
 	padding: 0.75rem;
 	text-align: left;
 	text-decoration: none;
-	color: black;
+	color: white;
 	font-weight: 700;
 	transition: 0.5s;
 	font-size: clamp(1rem, 2vmin, 1.5rem);
@@ -115,4 +115,5 @@ navigation a:active {
 }
 
 footer{background-color: darkslateblue;
+color: white;
 padding: 10px;}
