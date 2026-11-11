@@ -1,0 +1,114 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+font-family: "Playfair Display", serif;
+
+}
+
+main{
+	margin-top: 10px;
+}
+/*header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: darkslateblue;
+}*/
+
+header{
+background-color: darkslateblue;
+padding-top: 5px;
+}
+
+#logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+
+}
+
+
+
+
+h1 {
+	text-align: center;
+}
+
+p {
+	margin: 1rem auto;
+
+	padding: 0.5rem;
+	background-color: darkslateblue;
+	text-align: center;
+	width: fit-content;
+}
+#menu {
+	display: block;
+	font-size: 2rem;
+	font-weight: 700;
+	text-decoration: none;
+	padding: 0.5rem 0.75rem;
+	background-color:darkslateblue;
+	color: #000;
+}
+
+#menu::before {
+	content: "≡";
+    background-color: darkslateblue;
+}
+
+nav {
+	background-color: darkslateblue;
+}
+.navigation {
+	list-style: none;
+	margin: 0 auto;
+	max-width: 760px;
+	display: none;
+}
+
+.navigation.show{
+	display: block;
+	
+}
+
+
+.navigation a {
+	display: block;
+	padding: 0.75rem;
+	text-align: left;
+	text-decoration: none;
+	color: black;
+	font-weight: 700;
+	transition: 0.5s;
+	font-size: clamp(1rem, 2vmin, 1.5rem);
+}
+
+.navigation a:hover,
+navigation a:active {
+	color: white;
+	background-color: black;
+}
+
+.navigation.show li {
+	display: block;
+}
+
+#menu.show::before {
+	content: "X";
+}
+ main figure{
+	max-width: 800px;
+	margin: 0 auto;
+	display:grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	grid-gap: 25px;place-items: center;
+}
+
+footer{background-color: darkslateblue;
+padding: 10px;}
