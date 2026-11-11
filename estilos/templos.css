@@ -67,6 +67,7 @@ nav {
 	background-color: darkslateblue;
 	font-size: 30px;
 	justify-content: space-between;
+	color: white;
 }
 .navigation {
 	list-style: none;
