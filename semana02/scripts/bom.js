@@ -25,3 +25,35 @@ botaoadd.addEventListener('click', function() {
     }
 });
 
+
+    //TESTE 
+/*function nomeCompleto(nome, sobrenome) {
+  return `${nome} ${sobrenome}`;
+
+}
+
+let nome = nomeCompleto('Antonia', 'Francesca')
+console.log(nome)*/
+
+
+let notas = [100, 72, 83, 94, 88, 87];
+let acumulador = 0;
+let count = 0;
+notas.forEach(nota => {
+ if (nota > 87) {
+ acumulador += nota;
+ count ++;
+ }
+});
+if ( count > 0 ) {
+ console.log(acumulador/count); 
+} else {
+ console.log("Nenhuma nota informada.");
+}
+/*=94*/
+
+/*const teste = document.querySelector('#teste');
+
+let item = '<p>Eu gosto de macarrão!</p>'
+
+teste.innerHTML = item;*/

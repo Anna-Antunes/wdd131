@@ -94,7 +94,7 @@ nav {
 }
 
 .navigation a:hover,
-navigation a:active {
+.navigation a:active {
 	color: white;
 	background-color: black;
 }
