@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+--color-one:#8B0000;
+--color-two: #FFFFFF;
+--color-three: #000;
+
+}
+
+
+body {
+   font-family: "Oswald", sans-serif;
+    text-align: center; 
+
+}
+body header span{
+    font-size: 60px;
+    font-family: "Oswald", sans-serif;
+    color:var(--color-two);
+}
+
+
+header div{
+    background-color:var(--color-one); 
+    color:var(--color-two);
+    padding: 35px;
+}
+
+.templo{
+position: relative;
+}
+
+.templo{
+width: 100%;
+height: 100%;
+
+}
+
+.templo picture {
+display: block;
+width: 100%;
+height: 100%;
+}
+
+.templo img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+footer{
+background-color: var(--color-one);
+color: var(--color-two);
+padding: 10px;
+text-align: center;
+}
+
+header hr{
+padding: 15px;
+background-color:var(--color-two);
+border: none;
+}
+
+.data{
+position: absolute;
+top: 80px;
+
+}
+
+
+
+.informacoes,
+.tempo
+{
+position: absolute;
+top: 120px;
+width: 300px;
+border: 1px solid rgb(0 0 0 / 0.2);
+padding: 2rem;
+margin: 1rem;
+background-color: rgb(255 255 255 / 90%);
+height: auto;
+font-family: "Oswald", sans-serif; ;
+font-size: 19px;
+}
+
+.informacoes p,
+.tempo p
+{
+display: flex;
+align-items: baseline;
+gap: 5px;
+text-align: left;
+margin-bottom: 8px;
+
+}
+
+.informacoes p strong,
+.tempo p strong {
+flex: 0 0 120px;
+text-align: right;
+white-space: nowrap;
+    
+}
+
+.informacoes,
+.tempo {
+    width: 340px;
+}
+
+.informacoes h2,
+.clima h2{
+position: relative;
+top: -20px;
+left: -60px;
+text-align: left;
+margin-left: 1rem;
+margin-top: 0.5rem;
+box-shadow: 2px 2px 5px var(--color-one);
+background-color:var(--color-one);
+color: var(--color-two);
+padding: 12px;
+}
+
+.clima h2::after {
+content: "☀️";
+}
+
+.clima {
+position: absolute;
+right: 400px;
+bottom: 300px;
+}
+
+.sol {
+display: none;
+}
+
+@media screen and (max-width: 650px) {
+main {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.templo,
+.data,
+.clima {
+position: static;
+width: 100%;
+}
+
+.templo picture,
+.templo img {
+width: 100%;
+height: auto;
+    }
+
+.informacoes,
+.tempo {
+position: static;
+width: 100%;
+margin: 10px 0;
+}
+
+.informacoes h2,
+.clima h2 {
+
+position: relative;
+top: -20px;
+left: 0;
+text-align: center;
+margin-left: 0;
+margin-top: 0.5rem;
+box-shadow: none;
+background-color:var(--color-two);
+color: var(--color-three);
+padding: 12px;
+ 
+}
+
+.data,
+.clima,
+.informacoes,
+.tempo {
+margin: 0;
+}
+
+footer{
+padding: 50px;
+}
+
+.clima h2::after {
+    content: none;
+}
+
+.sol{
+display: block;
+position: relative;
+top: -20px;
+margin: 0 auto;
+
+
+}
+
+}

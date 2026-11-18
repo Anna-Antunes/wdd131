@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+--color-one:#8B0000;
+--color-two: #FFFFFF;
+
+}
+
+body {
+   font-family: "Oswald", sans-serif;
+    text-align: center; 
+}
+body header span{
+    font-size: 60px;
+    font-family: "Oswald", sans-serif;
+    color:var(--color-two);
+}
+
+
+header div{
+    background-color:var(--color-one); 
+    color:var(--color-two);
+    padding: 35px;
+}
+
+footer{
+background-color: var(--color-one);
+color: var(--color-two);
+padding: 10px;
+text-align: center;
+}
