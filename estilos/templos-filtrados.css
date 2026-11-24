@@ -1,0 +1,199 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+}
+
+main{
+	margin-top: 10px;
+}
+/*header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: darkslateblue;
+}*/
+
+header{
+background-color:steelblue;
+padding-top: 5px;
+}
+
+#logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+
+}
+
+
+
+
+h1 {
+	text-align: center;
+}
+
+header p {
+	margin: 1rem auto;
+
+	padding: 0.5rem;
+	text-align: center;
+	width: fit-content;
+}
+#menu {
+	display: block;
+	font-size: 2rem;
+	font-weight: 700;
+	text-decoration: none;
+	padding: 0.5rem 0.75rem;
+	background-color:steelblue;
+	color: white;
+}
+
+#menu::before {
+	content: "≡";
+    background-color:steelblue;
+}
+
+nav {
+	display: flex;
+	background-color: steelblue;
+	font-size: 30px;
+	justify-content: space-between;
+	color: white;
+}
+.navigation {
+	list-style: none;
+	margin: 0 auto;
+	max-width: 760px;
+	display: none;
+}
+
+.navigation.show{
+	display: block;
+	
+}
+
+
+.navigation a {
+	display: block;
+	padding: 0.75rem;
+	text-align: left;
+	text-decoration: none;
+	color: white;
+	font-weight: 700;
+	transition: 0.5s;
+	font-size: clamp(1rem, 2vmin, 1.5rem);
+}
+
+.navigation a:hover,
+.navigation a:active {
+	color: white;
+	background-color: black;
+}
+
+.navigation.show li {
+	display: block;
+}
+
+#menu.show::before {
+	content: "X";
+}
+ main figure{
+	max-width: 800px;
+	margin: 0 auto;
+	display:grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	grid-gap: 25px;place-items: center;
+}
+
+footer{background-color:steelblue;
+color: black;
+padding: 10px;}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+	margin: 8px;
+	display: flex;
+    flex-direction: column;
+	background-color:#f3f4f5;
+	
+}
+
+.card img {
+    max-width: 100%;
+    margin-top: auto;
+	border-radius: 3px;
+}
+
+.card figcaption{
+font-weight: bolder;
+font-size: 20px;
+
+}
+
+.card span{
+color: red;
+font-weight: bold;
+
+}
+
+
+.navigation a.active {
+color: red;
+
+}
+
+@media screen and (min-width: 500px){
+body{
+font-family: "Playfair Display", serif;
+text-align: center;
+}
+ main .fotos {
+    justify-content: center;
+    max-width: 800px;
+	margin: 0 auto;
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+main figure{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+
+}
+#menu{
+display: none;
+}
+.navigation {
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+}
+
+.navigation.show {
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+}
+header{
+display: grid;
+grid-template-columns: 1fr 3fr;
+align-items: center;
+}
+
+
+
+}

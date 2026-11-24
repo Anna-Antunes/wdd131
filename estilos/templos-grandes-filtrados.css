@@ -1,0 +1,48 @@
+@media screen and (min-width: 500px){
+body{
+font-family: "Playfair Display", serif;
+text-align: center;
+}
+ main .fotos {
+    justify-content: center;
+    max-width: 800px;
+	margin: 0 auto;
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+main figure{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+
+}
+#menu{
+display: none;
+}
+.navigation {
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+}
+
+.navigation.show {
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+}
+header{
+display: grid;
+grid-template-columns: 1fr 3fr;
+align-items: center;
+}
+
+
+
+}
+
+
+    
+
+
